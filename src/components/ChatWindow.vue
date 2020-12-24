@@ -15,8 +15,10 @@
     </div>
 </template>
 
+
 <script>
 </script>
+
 
 <style>
 .chat-window {

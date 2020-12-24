@@ -6,12 +6,14 @@
     </div>
 </template>
 
+
 <script>
 export default {
     name: 'ChatMessage',
     props: ['username', 'datetime']
 }
 </script>
+
 
 <style>
 .chat-message {

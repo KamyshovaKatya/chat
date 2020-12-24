@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="body">
         <Container>
             <ChatWindow>
                 <ChatMessage username="Ivan" time="21.12.2019 05:00:50">Hello, World!!!</ChatMessage>
@@ -10,8 +10,8 @@
 
 <script>
 import Container from './components/Container.vue'
-import ChatWindow from './components/ChatWindow.vue'
 import ChatMessage from './components/ChatMessage.vue'
+import ChatWindow from './components/ChatWindow.vue'
 export default {
     name: 'App',
     components: {
